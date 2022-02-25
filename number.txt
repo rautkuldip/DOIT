@@ -1,0 +1,19 @@
+//.Write a Java Program to Print 1 To 10 Without Using Loop.
+
+import java.util.Scanner;
+public class Main
+{
+
+public static void recursivefun(int n) 
+{ 
+ 
+  if(n <= 10) {
+ 
+       System.out.println(n); 
+         recursivefun(n+1);   }
+}    
+	public static void main(String[] args) {
+	  
+	  recursivefun(1);
+	}
+}

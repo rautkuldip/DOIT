@@ -1,0 +1,22 @@
+import java.util.*;
+import java.util.Scanner;
+public class Main
+{
+    
+	public static void main(String[] args) {
+	  
+	  int m;
+	  Scanner sc = new Scanner(System.in);
+	  System.out.println("Enter the first Number:");
+	  m = sc.nextInt();
+	
+	if(m < 0)
+	    System.out.println("Number is negative");
+	else if(m == 0)
+	    System.out.println("numbe is zero");
+	else
+	    System.out.println("number is positive");
+	  
+	  
+	}
+}

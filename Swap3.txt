@@ -1,0 +1,19 @@
+import java.util.*;
+import java.util.Scanner;
+public class Swap3
+{
+    
+	public static void main(String[] args) {
+	  
+	  int m,n;
+	  Scanner sc = new Scanner(System.in);
+	  System.out.println("Enter the first Number:");
+	  m = sc.nextInt();
+	  System.out.println("Enter the second number:");
+	  n = sc.nextInt();
+	  m = m * n;
+	  n = m / n;
+	  m = m / n;
+	  System.out.println("Swapped numbers are:" + m +" " + n);
+	}
+}

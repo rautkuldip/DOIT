@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+public class Main
+{
+
+
+	static int Addition(int a, int b)
+    {
+        for (int i = 1; i <= b; i++){
+      a++;
+    }
+    return a;
+    }
+ 
+    public static void main(String[] args)
+    {
+        int add = Addition(20,60);
+        System.out.println("Addition is:" + add);
+       
+ 
+    }
+}
